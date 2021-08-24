@@ -1,17 +1,19 @@
 # GSOM JupyterHub
 Manual and Demo Jupyter Notebooks for GSOM Students
 
-## Инструкция по входу в JupyterHub
-## JupyterHub Log In Manual  
+## Инструкция по входу в JupyterHub | JupyterHub Log In Manual  
 
 
 ВАЖНО: вход на платформу осуществляется через авторизацию в домене GSOM поэтому для входа вам необходимо иметь учетную запись в этом домене (например, someone@gsom.spbu.ru). 
+
 NOTE: you should have an account at GSOM and email address (e.g. someone@gsom.spbu.ru) to log in to Jupyter.
 
 Как войти на платформу и начать работать
+
 How to enter Jupyter and start working
 
 Шаг 1. Вход на платформу осуществляется по адресу https://jhas01.gsom.spbu.ru 
+
 Step 1. Enter url https://jhas01.gsom.spbu.ru 
 
 
