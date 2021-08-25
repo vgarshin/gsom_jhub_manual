@@ -18,6 +18,7 @@ __Шаг 1.__ Вход на платформу осуществляется по
 
 __Step 1.__ Enter url https://jhas01.gsom.spbu.ru 
 
+![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_0.png?raw=true "Title")
 
 __Шаг 2.__ После нажатия на кнопку [Sign in with Azure AD] вы попадете на страницу авторизации 
 
