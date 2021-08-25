@@ -13,20 +13,20 @@ __NOTE:__ you should have an account at GSOM and email address (e.g. someone@gso
 
 How to enter Jupyter and start working
 
-
+____
 __Шаг 1.__ Вход на платформу осуществляется по адресу https://jhas01.gsom.spbu.ru 
 
 __Step 1.__ Enter url https://jhas01.gsom.spbu.ru 
 
-![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_0.png?raw=true "Title")
+![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_0.png?raw=true "Enter the JupyterHub")
 
 __Шаг 2.__ После нажатия на кнопку [Sign in with Azure AD] вы попадете на страницу авторизации 
 
 __Step 2.__ When you press [Sign in with Azure AD] you will be directed to authorization page
 
+![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_1.png?raw=true "Login")
 
-
-
+![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_2.png?raw=true "Password")
 
 В форме авторизации необходимо указать свои логин (адрес эл.почты) и нажать кнопку [Далее], после чего ввести пароль от этой учетной записи и нажать [Войти]. 
 
