@@ -20,7 +20,8 @@ __Step 1.__ Enter url https://jhas01.gsom.spbu.ru
 
 ![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_0.png?raw=true "Enter the JupyterHub")
 
-__Шаг 2.__ После нажатия на кнопку [Sign in with Azure AD] вы попадете на страницу авторизации 
+____
+__Шаг 2.__ После нажатия на кнопку `Sign in with Azure AD` вы попадете на страницу авторизации 
 
 __Step 2.__ When you press [Sign in with Azure AD] you will be directed to authorization page
 
@@ -38,7 +39,7 @@ You should enter your login (same as email address) and press [Далее], then
 
 Authorization application may ask you to stay authorized, just press [Да] button.
 
-
+____
 __Шаг 3.__ После авторизации вы попадете на страницу, на которой вам будет предложено запустить сервер для начала работы. Необходимо выбрать одну из предлагаемых конфигураций для создания окружения (environment):
 - DataScience environment (рекомендуемое для большинства задач по анализу данных и ML алгоритмов)
 - Spark environment (для обработки больших массивов данных Spark-ом и чтения данных из S3 бакетов)
@@ -72,7 +73,7 @@ __NOTE:__ It is possible that your server will not start, so you should enter th
 ...and start your server one more time manually by pressing [Start My Server] button:
 
 
-
+____
 __Шаг 4.__ Вы попадете на стартовую страницу JupyterHub, которая будет выглядеть следующим образом:
 
 __Step 4.__ Start page of the JupyterHub looks like this:
