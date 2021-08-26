@@ -95,8 +95,8 @@ __BEFORE YOU START.__ Your Home directory contains two defaulf folders:
 
 | ИМЯ ДИРЕКТОРИИ / FOLDER NAME | СОДЕРЖАНИЕ | CONTENT | ВАЖНО ЗНАТЬ | KEY FACTS |
 |:---:|:---|:---|
-| MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | 
-| SHARED | текст | text |
+| MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | Мануал и демо ноутбуки обновляются и загружаются в домашнюю папку каждый раз, когда запускается Jupyter, поэтому изменения в этой папке __сохранятся не будут__ | ... |
+| SHARED | текст | text | ... | ... |
 
 ____
 Подробнее о работе в среде Jupyter (JupyterHub) можно прочитать тут: 
