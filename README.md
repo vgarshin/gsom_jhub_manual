@@ -93,10 +93,10 @@ __BEFORE YOU START.__ Your Home directory contains two defaulf folders:
 ![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_11.png?raw=true "Default folders")
 
 
-| ИМЯ ДИРЕКТОРИИ | FOLDER NAME | ВАЖНО ЗНАТЬ | KEY FACTS |
-|:---|:---|:---|:---|
-| MANUAL | По центру | По правому краю | Text |
-| SHARED | текст | текст | text |
+| ИМЯ ДИРЕКТОРИИ / FOLDER NAME | СОДЕРЖАНИЕ | CONTENT | ВАЖНО ЗНАТЬ | KEY FACTS |
+|:---:|:---|:---|
+| MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | 
+| SHARED | текст | text |
 
 ____
 Подробнее о работе в среде Jupyter (JupyterHub) можно прочитать тут: 
