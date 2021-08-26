@@ -92,11 +92,14 @@ __BEFORE YOU START.__ Your Home directory contains two defaulf folders:
 
 ![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_11.png?raw=true "Default folders")
 
+Краткое описание директорий приведено в следующей таблице:
+
+Brief description of the defaulr folder is in the table below:
 
 | ИМЯ ДИРЕКТОРИИ / FOLDER NAME | СОДЕРЖАНИЕ | CONTENT | ВАЖНО ЗНАТЬ | KEY FACTS |
 |:---:|:---|:---|:---|:---|
-| MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | Мануал и демо ноутбуки обновляются и загружаются в домашнюю папку каждый раз, когда запускается Jupyter, поэтому изменения в этой папке __сохранятся не будут__ | ... |
-| SHARED | текст | text | ... | ... |
+| :file_folder:MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | Мануал и демо ноутбуки обновляются и загружаются в домашнюю папку каждый раз, когда запускается Jupyter, поэтому __:x:изменения в папке MANUALC сохранятся не будут__ | Manual and demo notebooks are loaded to folder each time your server started, so __:x:your changes in MANUAL folder will not be saved__ |
+| :file_folder:SHARED | текст | text | ... | ... |
 
 ____
 Подробнее о работе в среде Jupyter (JupyterHub) можно прочитать тут: 
