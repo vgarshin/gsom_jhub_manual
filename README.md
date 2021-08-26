@@ -1,5 +1,5 @@
 # GSOM JupyterHub
-Manual and Demo Jupyter Notebooks for GSOM Students
+Manual and Demo Jupyter Notebooks for [GSOM](https://gsom.spbu.ru/) Students
 
 ## Инструкция по входу в JupyterHub | JupyterHub Log In Manual  
 
@@ -23,7 +23,7 @@ __Step 1.__ Enter url https://jhas01.gsom.spbu.ru
 ____
 __Шаг 2.__ После нажатия на кнопку `Sign in with Azure AD` вы попадете на страницу авторизации 
 
-__Step 2.__ When you press [Sign in with Azure AD] you will be directed to authorization page
+__Step 2.__ When you press `Sign in with Azure AD` you will be directed to authorization page
 
 ![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_1.png?raw=true "Login")
 
