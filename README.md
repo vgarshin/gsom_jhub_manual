@@ -85,8 +85,20 @@ __Step 4.__ Start page of the JupyterHub looks like this:
 
 You may start working, create notebooks, open terminals, upload files, etc.
 
+____
+__ПЕРЕД НАЧАЛОМ РАБОТЫ.__ Домашняя директория содержит следующие папки по умолчанию:
+
+__BEFORE YOU START.__ Your Home directory contains two defaulf folders:
+
+![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_11.png?raw=true "Default folders")
 
 
+| ИМЯ ДИРЕКТОРИИ | FOLDER NAME | ВАЖНО ЗНАТЬ | KEY FACTS |
+|:---|:---|:---|:---|
+| MANUAL | По центру | По правому краю | Text |
+| SHARED | текст | текст | text |
+
+____
 Подробнее о работе в среде Jupyter (JupyterHub) можно прочитать тут: 
 
 User manual for JupyterHub is here:
