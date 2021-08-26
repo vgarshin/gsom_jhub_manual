@@ -98,7 +98,7 @@ Brief description of the default folders is in the table below:
 
 | ИМЯ ДИРЕКТОРИИ / FOLDER NAME | СОДЕРЖАНИЕ | CONTENT | ВАЖНО ЗНАТЬ | KEY FACTS |
 |:---:|:---|:---|:---|:---|
-| :file_folder:MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | Мануал и демо ноутбуки обновляются и загружаются в папку MANUAL каждый раз, когда запускается Jupyter, поэтому __:x:изменения в папке MANUAL сохранятся не будут__ | Manual and demo notebooks are loaded to MANUAL folder each time your server started, so __:x:your changes in MANUAL folder will not be saved__ |
+| :file_folder:MANUAL | Настоящий мануал и демо ноутбуки с примерами кода | This manual and basic code snippets | Мануал и демо ноутбуки обновляются и загружаются в папку MANUAL каждый раз, когда запускается Jupyter, поэтому __:x:изменения в папке MANUAL сохраняться не будут__ | Manual and demo notebooks are loaded to MANUAL folder each time your server started, so __:x:your changes in MANUAL folder will not be saved__ |
 | :file_folder:SHARED | Предназначена для открытого обмена файлами между всеми пользователями JupyterHub | For sharing files and documents across all users of the JupyterHub | Доступ на чтение, запись и удваление к папке SHARED разрешен всем пользователям, поэтому __:point_up:будьте внимательны при выкладывании в папку SHARED своих материалов__ | All files in SHARED folder are available for read, write of delete for every user, so __:point_up:be careful while sharing files via SHARED folder__ |
 
 ____
