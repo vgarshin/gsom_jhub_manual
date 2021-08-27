@@ -45,14 +45,16 @@ __Шаг 3.__ После авторизации вы попадете на ст�
 - __Spark environment__ (для обработки больших массивов данных Spark-ом и чтения данных из S3 бакетов)
 - __R environment__ (для проектов на языке R)
 - __Minimal Python environment__ (минимальный Python без большинства библиотек для анализа данных)
-и нажать кнопку `Start`.
+
+...и нажать кнопку `Start`.
 
 __Step 3.__ Next page will offer you to select one of the possible environments:
 - __DataScience environment__ (recommended for data analysis and ML tasks)
 - __Spark environment__ (to use Spark and read from S3)
 - __R environment__ (R programming language)
 - __Minimal Python environment__ (pure Python with no data analysis libraries)
-and press `Start` button.
+
+...and press `Start` button.
 
 ![Alt text](https://github.com/vgarshin/gsom_jhub_manual/blob/master/images/manual_4.png?raw=true "Select environment")
 
