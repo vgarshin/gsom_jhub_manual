@@ -44,6 +44,10 @@ __Шаг 3.__ После авторизации вы попадете на ст�
 - __DataScience environment__ (рекомендуемое для большинства задач по анализу данных и ML алгоритмов)
 - __Spark environment__ (для обработки больших массивов данных Spark-ом и чтения данных из S3 бакетов)
 - __R environment__ (для проектов на языке R)
+- __PostgreSQL environment__ (демонстрационная инсталляция базы данных PostgreSQL)
+- __MongoDB environment__ (демонстрационная инсталляция базы данных MongoDB)
+- __Airflow environment__ (демонстрационная инсталляция Airflow для локальных экспериментов)
+- __Hadoop (with YARN) and Spark environment__ (демонстрационная инсталляция Hadoop кластера с Map-Reduce и Spark)
 - __Minimal Python environment__ (минимальный Python без большинства библиотек для анализа данных)
 
 ...и нажать кнопку `Start`.
@@ -52,6 +56,10 @@ __Step 3.__ Next page will offer you to select one of the possible environments:
 - __DataScience environment__ (recommended for data analysis and ML tasks)
 - __Spark environment__ (to use Spark and read from S3)
 - __R environment__ (R programming language)
+- __PostgreSQL environment__ (Demo PostgreSQL database for the local experiments)
+- __MongoDB environment__ (Demo MongoDB database for the local experiments)
+- __Airflow environment__ (Airflow platform for the local experiments)
+- __Hadoop (with YARN) and Spark environment__ (Hadoop mini-cluster with Map-Reduce operations and standalone Spark)
 - __Minimal Python environment__ (pure Python with no data analysis libraries)
 
 ...and press `Start` button.
