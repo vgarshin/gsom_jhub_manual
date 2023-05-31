@@ -123,9 +123,9 @@ https://jupyter-notebook.readthedocs.io/en/stable/
 
 ### Timeout at start
 
-В зависимости от загрузки сервера при входе в систему может возникать ошибка с уведомлением `Timeout. Server did not start at 600 seconds`. В этом случае рекомендуется повторно запустить сервер и дождаться его успешного запуска. Обычно такие ошибки возникают при одновременном заходе в систему большого числа пользователей и резком росте нагрузки.
+В зависимости от загрузки сервера при входе в систему может возникать ошибка с уведомлением `Timeout. Server did not start at 600 seconds`. В этом случае рекомендуется повторно запустить сервер и дождаться его успешного запуска как указано [здесь]( https://github.com/vgarshin/gsom_jhub_manual/blob/773555c031f9c8f706e1742bff7a54a50b97d34b/README.md?plain=1#L75). Обычно такие ошибки возникают при одновременном заходе в систему большого числа пользователей и резком росте нагрузки.
 
-You may meet an error on the start with message `Timeout. Server did not start at 600 seconds` that is caused by large number of users arrived at the platform and high-load period. Recommendation in this case will be to start server again and wait until it starts.
+You may meet an error on the start with message `Timeout. Server did not start at 600 seconds` that is caused by large number of users arrived at the platform and high-load period. Recommendation in this case will be to start server again and wait until it starts as shown [here]( https://github.com/vgarshin/gsom_jhub_manual/blob/773555c031f9c8f706e1742bff7a54a50b97d34b/README.md?plain=1#L77).
 
 ### Back-off restarting container
 
