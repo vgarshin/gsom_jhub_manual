@@ -119,3 +119,20 @@ User manual for JupyterHub is here:
 
 https://jupyter-notebook.readthedocs.io/en/stable/ 
 
+## Проблемы и их решения | Troubleshooting
+
+### :sos: Timeout at start
+
+В зависимости от загрузки сервера при входе в систему может возникать ошибка с уведомлением `Timeout. Server did not start at 600 seconds`. В этом случае рекомендуется повторно запустить сервер и дождаться его успешного запуска как указано [здесь]( https://github.com/vgarshin/gsom_jhub_manual/blob/773555c031f9c8f706e1742bff7a54a50b97d34b/README.md?plain=1#L75). Обычно такие ошибки возникают при одновременном заходе в систему большого числа пользователей и резком росте нагрузки.
+
+You may meet an error on the start with message `Timeout. Server did not start at 600 seconds` that is caused by large number of users arrived at the platform and high-load period. Recommendation in this case will be to start server again and wait until it starts as shown [here]( https://github.com/vgarshin/gsom_jhub_manual/blob/773555c031f9c8f706e1742bff7a54a50b97d34b/README.md?plain=1#L77).
+
+### :sos: Back-off restarting container
+
+Дисковое простарнство пользователя ограничего объемом в 12 ГБ и при превышении объема данных на диске указанного предела сервер не запустится с ошибкой `Back-off restarting container`. В этом случае необходимо обратиться к администратору системы для очистки диска и удаления лишних данных, контакты администратора указаны в Телеграм-канале https://t.me/simbaplatform
+
+Чтобы избежать подобной ошибки рекомендуется следить за объемом хранимых данных и не превышать лимит в 12 ГБ.
+
+Size of a disk for a single user is limited by 12 GB, so it is not recommended to exceed this limit. In a case of exceeding you will meet an error at the start with the message `Back-off restarting container`. The only option to overcome the error will be to contact an administrator of the platrorm through the Telegram channel https://t.me/simbaplatform to clean your disk and remove unnecessary data.
+
+Please keep the size of your data on the server under 12 GB limit to avoid such errors.
