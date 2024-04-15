@@ -1,0 +1,25 @@
+{
+  "display_name": "S3 get objects",
+  "metadata": {
+    "tags": [
+      "s3"
+    ],
+    "description": "Get list of all objects in S3 object storage",
+    "display_name": "S3 get objects",
+    "code": [
+      "import boto3",
+      "",
+      "session = boto3.session.Session()",
+      "s3 = session.client(",
+      "    service_name='s3',",
+      "    aws_access_key_id=creds['aws_access_key_id'],",
+      "    aws_secret_access_key=creds['aws_secret_access_key'],",
+      "    endpoint_url='https://storage.yandexcloud.net'",
+      ")",
+      "all_files = [key['Key'] for key in s3.list_objects(Bucket=<BUCKET_NAME>)['Contents']]",
+      "print('files in storage:', all_files)"
+    ],
+    "language": "Python"
+  },
+  "schema_name": "code-snippet"
+}
