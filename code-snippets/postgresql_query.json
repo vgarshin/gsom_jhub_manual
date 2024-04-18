@@ -1,0 +1,39 @@
+{
+  "display_name": "PostgreSQL query",
+  "metadata": {
+    "tags": [
+      "database"
+    ],
+    "description": "Send query to PostgreSQL database",
+    "display_name": "PostgreSQL query",
+    "code": [
+      "import psycopg2",
+      "",
+      "def send_query(query, access_postgres, res=False):",
+      "    result = None",
+      "    with psycopg2.connect(",
+      "        host=access_postgres['host'],",
+      "        port=access_postgres['port'],",
+      "        dbname=access_postgres['dbname'],",
+      "        user=access_postgres['user'],",
+      "        password=access_postgres['password'],",
+      "        target_session_attrs='read-write',",
+      "        sslmode='verify-full',",
+      "        sslrootcert=f'{access_postgres[\"sslrootcert\"]}'",
+      "        ) as conn:",
+      "            with conn.cursor() as cur:",
+      "                cur.execute(query)",
+      "                if res:",
+      "                    result = cur.fetchall()",
+      "    return result",
+      "",
+      "access_postgres = access_data('access_postgres.json')",
+      "query = '''",
+      "SELECT version()",
+      "'''",
+      "send_query(query, access_postgres, res=True)"
+    ],
+    "language": "Python"
+  },
+  "schema_name": "code-snippet"
+}

@@ -1,0 +1,44 @@
+{
+  "display_name": "ClickHouse query",
+  "metadata": {
+    "tags": [
+      "database"
+    ],
+    "description": "Send query to ClickHouse database",
+    "display_name": "ClickHouse query",
+    "code": [
+      "import requests",
+      "",
+      "def execute_query(query, access_ch, data=None):",
+      "    url = 'https://{host}:{port}/'.format(",
+      "        host=access_ch['host'],",
+      "        port=access_ch['port']",
+      "    )",
+      "    params = {",
+      "        'database': access_ch['dbname'],",
+      "        'query': query.strip()",
+      "    }",
+      "    auth = {",
+      "        'X-ClickHouse-User': access_ch['user'],",
+      "        'X-ClickHouse-Key': access_ch['password']",
+      "    }",
+      "    rs = requests.post(",
+      "        url, ",
+      "        params=params, ",
+      "        headers=auth, ",
+      "        data=data,",
+      "        verify=f'{access_ch[\"sslrootcert\"]}'",
+      "    )",
+      "    return rs",
+      "",
+      "access_ch = access_data('access_ch.json')",
+      "query = '''",
+      "SELECT version()",
+      "'''",
+      "rs = execute_query(query, access_ch)",
+      "print(rs.text)"
+    ],
+    "language": "Python"
+  },
+  "schema_name": "code-snippet"
+}

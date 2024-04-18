@@ -1,0 +1,25 @@
+{
+  "display_name": "Python script",
+  "metadata": {
+    "tags": [
+      "script"
+    ],
+    "description": "Python script sample file",
+    "display_name": "Python script",
+    "code": [
+      "#!/usr/bin/env python",
+      "# coding: utf-8",
+      "",
+      "import os",
+      "import sys",
+      "",
+      "def main():",
+      "    print('hello')",
+      "",
+      "if __name__ == '__main__':",
+      "    main()"
+    ],
+    "language": "Python"
+  },
+  "schema_name": "code-snippet"
+}

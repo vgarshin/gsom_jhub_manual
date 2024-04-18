@@ -1,0 +1,18 @@
+{
+  "display_name": "Unzip file",
+  "metadata": {
+    "tags": [
+      "zip"
+    ],
+    "description": "Unzip archive file with Python",
+    "display_name": "Unzip file",
+    "code": [
+      "import zipfile",
+      "",
+      "with zipfile.ZipFile(path_to_file, 'r') as file:",
+      "    zip_ref.extractall(path_to_extract)"
+    ],
+    "language": "Python"
+  },
+  "schema_name": "code-snippet"
+}
